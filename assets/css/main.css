@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-inline: auto;
+    max-width: 1440px;
+}
+.navbar{
+    width: 1110px;
+    margin-top: 55px;
+    margin-left: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    & > a{
+        padding: 16px 27px 16px 26px;
+        background: #E8EFF2;
+        border-radius: 8px;
+        text-decoration: none;
+        color: black;
+
+    }
+}
+.first-box{
+    width: 445px;
+    margin-left: 165px;
+    margin-top: 143px;
+
+}
+.first-container{
+    display: flex;
+    gap: 125px;
+}
+.first-box-text{
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    & > h1{
+        font-size: 56px;
+    }
+    & > p{
+        font-size: 18px;
+        color: gray;
+    }
+}
+.first-box-buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 40px;
+    & > a{
+        padding: 16px 27px 16px 26px;
+        background: #F16718;
+        border-radius: 8px;
+        color: white;
+        text-decoration: none;
+    }
+    & > p{
+        color: #7B8BAD;
+
+    }
+}
+.first-box-img{
+    margin-top: 80px;
+}
+.second-box{
+    display: flex;
+    margin-left: 165px;
+    gap: 30px;
+    margin-top: 30px;
+}
+.box-3{
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 95px;
+    & > h1{
+        font-size: 32px;
+        line-height: 36px;
+    }
+    & > p{
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B8BAD;
+
+    }
+}
+.boxlar{
+    width: 255px;
+
+}
+.boxlar-text{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    & > h1{
+        font-size: 24px;
+        line-height: 24px;
+        text-align: left;
+    }
+    & > p{
+        color: #7B8BAD;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: left;
+
+    }
+}
+.last-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    margin-top: 168px;
+    margin-left: 165px;
+}
+.last-text{
+    margin-top: 128px;
+    margin-left: 568px;
+    color: #7B8BAD;
+    font-size: 16px;
+    
+
+}
